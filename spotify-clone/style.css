@@ -263,7 +263,8 @@ a{
     height: 0.2rem;
 }
 
-.progress-bar::-webkit-slider-thumb{
+.progress-bar::-webkit-slider-thumb
+{
     appearance: none;
     background-color: #1bd760;
     height: 1rem;
@@ -271,3 +272,44 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album{
+    display: flex;
+    margin-left: 0.5rem;
+    align-items: center;
+    
+}
+.album-img{
+    height: 2.5rem;
+    width: 2.5rem; 
+}
+.song-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+.song-title {
+    font-weight: bold;
+    margin: 0;
+}
+.artist-name {
+    margin: 0;
+    color: gray;
+}
+.album-icons{
+    display: flex;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.volume{
+    display: flex;
+    align-items: center;
+}
+
