@@ -1,0 +1,66 @@
+*{
+    font-family: 'Times New Roman', Times, serif;  
+    background-color: rgb(26, 25, 25);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    color: aqua;
+    
+}
+
+.inpBox{
+    padding: 6px 12px;
+    background: rgb(24, 24, 26);
+    border: 1px solid rgb(96, 97, 99);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(135, 244, 244);
+    height: 46px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(64, 127, 242);
+    }
+}
+
+
+.addButton {
+    padding: 10px 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #e58f8f;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    letter-spacing: 2px;
+}
+
+.addButton:hover {
+    background-color: #4a934c;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.addButton:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.unList{
+    color: aquamarine;
+    font-size: large;
+    margin-right: 2rem;
+}
+
