@@ -62,5 +62,35 @@ h1{
     color: aquamarine;
     font-size: large;
     margin-right: 2rem;
+
 }
+
+li{
+    line-height: 1cm;
+}
+
+
+ul.unList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; 
+}
+
+.unList {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+.delete {
+    margin-left: auto; 
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: black;
+    color: burlywood;
+    border: 2px solid grey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 
